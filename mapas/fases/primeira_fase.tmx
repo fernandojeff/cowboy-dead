@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="58">
+ <tileset firstgid="1" source="../tiles/tyeste2.tsx"/>
+ <tileset firstgid="342" name="cacto" tilewidth="1" tileheight="1" tilecount="0" columns="0"/>
+ <tileset firstgid="342" name="cacto" tilewidth="366" tileheight="364" tilecount="2" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image source="../cacto.jpg" width="366" height="364"/>
+  </tile>
+  <tile id="2">
+   <image source="../cacto.jpg" width="366" height="364"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="chão base" width="16" height="16">
+  <data encoding="csv">
+89,89,89,89,89,89,89,84,85,84,89,89,89,89,89,89,
+89,86,86,86,86,86,86,86,86,86,86,86,86,86,86,89,
+89,86,87,87,87,87,87,87,87,87,87,87,87,87,86,89,
+89,86,87,87,87,87,87,87,87,87,87,87,87,87,86,89,
+89,86,87,87,87,87,87,87,87,87,87,87,87,87,86,89,
+89,86,87,87,87,87,87,87,87,87,87,87,87,87,86,89,
+84,86,87,87,87,87,87,87,87,87,87,87,87,87,86,84,
+85,86,87,87,87,87,87,87,87,87,87,87,87,87,86,84,
+84,86,87,87,87,87,87,87,87,87,87,87,87,87,86,85,
+89,86,87,87,87,87,87,87,87,87,87,87,87,87,86,89,
+89,86,87,87,87,87,87,87,87,87,87,87,87,87,86,89,
+89,86,87,87,87,87,87,87,87,87,87,87,87,87,86,89,
+89,86,87,87,87,87,87,87,87,87,87,87,87,87,86,89,
+89,86,87,87,87,87,87,87,87,87,87,87,87,87,86,89,
+89,86,86,86,86,86,86,86,86,86,86,86,86,86,86,89,
+89,89,89,89,89,89,89,85,84,84,89,89,89,89,89,89
+</data>
+ </layer>
+ <objectgroup id="5" name="cacttos">
+  <object id="2" gid="342" x="0" y="16" width="16" height="16"/>
+  <object id="3" gid="342" x="16.0606" y="16" width="16" height="16"/>
+  <object id="4" gid="342" x="32.1818" y="16" width="16" height="16"/>
+  <object id="5" gid="342" x="48.125" y="16" width="16" height="16"/>
+  <object id="6" gid="342" x="64.0492" y="16" width="16" height="16"/>
+  <object id="7" gid="342" x="80.1704" y="16" width="16" height="16"/>
+  <object id="10" gid="342" x="160.008" y="16" width="16" height="16"/>
+  <object id="11" gid="342" x="175.866" y="16" width="16" height="16"/>
+  <object id="12" gid="342" x="191.987" y="16" width="16" height="16"/>
+  <object id="13" gid="342" x="207.93" y="16" width="16" height="16"/>
+  <object id="14" gid="342" x="223.854" y="16" width="16" height="16"/>
+  <object id="15" gid="342" x="240" y="16" width="16" height="16"/>
+  <object id="16" gid="342" x="96.0047" y="16" width="16" height="16"/>
+  <object id="23" gid="342" x="0" y="32" width="16" height="16"/>
+  <object id="24" gid="342" x="0" y="48.125" width="16" height="16"/>
+  <object id="25" gid="342" x="0" y="64.125" width="16" height="16"/>
+  <object id="26" gid="342" x="0" y="160.604" width="16" height="16"/>
+  <object id="27" gid="342" x="0" y="176.604" width="16" height="16"/>
+  <object id="28" gid="342" x="0" y="192.729" width="16" height="16"/>
+  <object id="29" gid="342" x="0" y="208.729" width="16" height="16"/>
+  <object id="30" gid="342" x="0" y="224.083" width="16" height="16"/>
+  <object id="31" gid="342" x="0" y="240.083" width="16" height="16"/>
+  <object id="32" gid="342" x="0" y="80.125" width="16" height="16"/>
+  <object id="33" gid="342" x="0" y="96.125" width="16" height="16"/>
+  <object id="34" gid="342" x="0" y="256.125" width="16" height="16"/>
+  <object id="35" gid="342" x="15.9299" y="256.125" width="16" height="16"/>
+  <object id="36" gid="342" x="32.0511" y="256.125" width="16" height="16"/>
+  <object id="37" gid="342" x="47.9943" y="256.125" width="16" height="16"/>
+  <object id="38" gid="342" x="63.9185" y="256.125" width="16" height="16"/>
+  <object id="39" gid="342" x="80.0397" y="256.125" width="16" height="16"/>
+  <object id="40" gid="342" x="95.9943" y="256.125" width="16" height="16"/>
+  <object id="41" gid="342" x="160.141" y="256" width="16" height="16"/>
+  <object id="42" gid="342" x="176.066" y="256" width="16" height="16"/>
+  <object id="43" gid="342" x="192.187" y="256" width="16" height="16"/>
+  <object id="44" gid="342" x="208.13" y="256" width="16" height="16"/>
+  <object id="45" gid="342" x="224.054" y="256" width="16" height="16"/>
+  <object id="46" gid="342" x="240" y="256" width="16" height="16"/>
+  <object id="47" gid="342" x="240" y="31.8769" width="16" height="16"/>
+  <object id="48" gid="342" x="240" y="48.0019" width="16" height="16"/>
+  <object id="49" gid="342" x="240" y="64.0058" width="16" height="16"/>
+  <object id="50" gid="342" x="240" y="80.0019" width="16" height="16"/>
+  <object id="51" gid="342" x="240" y="96.0019" width="16" height="16"/>
+  <object id="52" gid="342" x="240" y="160.073" width="16" height="16"/>
+  <object id="53" gid="342" x="240" y="176.073" width="16" height="16"/>
+  <object id="54" gid="342" x="240.031" y="192.136" width="16" height="16"/>
+  <object id="55" gid="342" x="240.063" y="208.167" width="16" height="16"/>
+  <object id="56" gid="342" x="240" y="224.052" width="16" height="16"/>
+  <object id="57" gid="342" x="240" y="240.052" width="16" height="16"/>
+ </objectgroup>
+</map>

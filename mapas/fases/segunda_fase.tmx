@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="119">
+ <tileset firstgid="1" source="../tiles/tyeste2.tsx"/>
+ <tileset firstgid="342" name="cacto" tilewidth="1" tileheight="1" tilecount="0" columns="0"/>
+ <tileset firstgid="342" name="cacto" tilewidth="366" tileheight="364" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image source="../cacto.jpg" width="366" height="364"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="343" name="cacto" tilewidth="366" tileheight="364" tilecount="2" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image source="../cacto.jpg" width="366" height="364"/>
+  </tile>
+  <tile id="2">
+   <image source="../cacto.jpg" width="366" height="364"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="346" source="../tiles/fase2chao.tsx"/>
+ <layer id="1" name="chão base" width="16" height="16">
+  <data encoding="csv">
+349,349,349,349,349,349,349,346,346,346,349,349,349,349,349,349,
+349,348,348,348,348,348,348,348,348,348,348,348,348,348,348,349,
+349,348,349,349,349,349,349,349,349,349,349,349,349,349,348,349,
+349,348,349,349,349,349,349,349,349,349,349,349,349,349,348,349,
+349,348,349,349,349,349,349,349,349,349,349,349,349,349,348,349,
+349,348,349,349,349,349,349,349,349,349,349,349,349,349,348,349,
+347,348,349,349,349,349,349,349,349,349,349,349,349,349,348,346,
+347,348,349,349,349,349,349,349,349,349,349,349,349,349,348,347,
+347,348,349,349,349,349,349,349,349,349,349,349,349,349,348,346,
+349,348,349,349,349,349,349,349,349,349,349,349,349,349,348,349,
+349,348,349,349,349,349,349,349,349,349,349,349,349,349,348,349,
+349,348,349,349,349,349,349,349,349,349,349,349,349,349,348,349,
+349,348,349,349,349,349,349,349,349,349,349,349,349,349,348,349,
+349,348,349,349,349,349,349,349,349,349,349,349,349,349,348,349,
+349,348,348,348,348,348,348,348,348,348,348,348,348,348,348,349,
+349,349,349,349,349,349,349,346,346,347,349,349,349,349,349,349
+</data>
+ </layer>
+ <objectgroup id="6" name="cacttos">
+  <object id="51" gid="343" x="0.2185" y="15.8125" width="16" height="16"/>
+  <object id="52" gid="343" x="16.2791" y="15.8125" width="16" height="16"/>
+  <object id="53" gid="343" x="32.4003" y="15.8125" width="16" height="16"/>
+  <object id="54" gid="343" x="48.3435" y="15.8125" width="16" height="16"/>
+  <object id="55" gid="343" x="64.2677" y="15.8125" width="16" height="16"/>
+  <object id="56" gid="343" x="80.3889" y="15.8125" width="16" height="16"/>
+  <object id="57" gid="343" x="160.227" y="15.8125" width="16" height="16"/>
+  <object id="58" gid="343" x="176.085" y="15.8125" width="16" height="16"/>
+  <object id="59" gid="343" x="192.206" y="15.8125" width="16" height="16"/>
+  <object id="60" gid="343" x="208.149" y="15.8125" width="16" height="16"/>
+  <object id="61" gid="343" x="224.073" y="15.8125" width="16" height="16"/>
+  <object id="62" gid="343" x="240.219" y="15.8125" width="16" height="16"/>
+  <object id="63" gid="343" x="96.2232" y="15.8125" width="16" height="16"/>
+  <object id="64" gid="343" x="0.2185" y="31.8125" width="16" height="16"/>
+  <object id="65" gid="343" x="0.2185" y="47.9375" width="16" height="16"/>
+  <object id="66" gid="343" x="0.2185" y="63.9375" width="16" height="16"/>
+  <object id="67" gid="343" x="0.2185" y="160.417" width="16" height="16"/>
+  <object id="68" gid="343" x="0.2185" y="176.417" width="16" height="16"/>
+  <object id="69" gid="343" x="0.2185" y="192.542" width="16" height="16"/>
+  <object id="70" gid="343" x="0.2185" y="208.542" width="16" height="16"/>
+  <object id="71" gid="343" x="0.2185" y="223.895" width="16" height="16"/>
+  <object id="72" gid="343" x="0.2185" y="239.895" width="16" height="16"/>
+  <object id="73" gid="343" x="0.2185" y="79.9375" width="16" height="16"/>
+  <object id="74" gid="343" x="0.2185" y="95.9375" width="16" height="16"/>
+  <object id="75" gid="343" x="0.2185" y="255.938" width="16" height="16"/>
+  <object id="76" gid="343" x="16.1484" y="255.938" width="16" height="16"/>
+  <object id="77" gid="343" x="32.2696" y="255.938" width="16" height="16"/>
+  <object id="78" gid="343" x="48.2128" y="255.938" width="16" height="16"/>
+  <object id="79" gid="343" x="64.137" y="255.938" width="16" height="16"/>
+  <object id="80" gid="343" x="80.2582" y="255.938" width="16" height="16"/>
+  <object id="81" gid="343" x="96.2128" y="255.938" width="16" height="16"/>
+  <object id="82" gid="343" x="160.359" y="255.813" width="16" height="16"/>
+  <object id="83" gid="343" x="176.285" y="255.813" width="16" height="16"/>
+  <object id="84" gid="343" x="192.406" y="255.813" width="16" height="16"/>
+  <object id="85" gid="343" x="208.349" y="255.813" width="16" height="16"/>
+  <object id="86" gid="343" x="224.273" y="255.813" width="16" height="16"/>
+  <object id="87" gid="343" x="240.219" y="255.813" width="16" height="16"/>
+  <object id="88" gid="343" x="240.219" y="31.6894" width="16" height="16"/>
+  <object id="89" gid="343" x="240.219" y="47.8144" width="16" height="16"/>
+  <object id="90" gid="343" x="240.219" y="63.8183" width="16" height="16"/>
+  <object id="91" gid="343" x="240.219" y="79.8144" width="16" height="16"/>
+  <object id="92" gid="343" x="240.219" y="95.8144" width="16" height="16"/>
+  <object id="93" gid="343" x="240.219" y="159.886" width="16" height="16"/>
+  <object id="94" gid="343" x="240.219" y="175.886" width="16" height="16"/>
+  <object id="95" gid="343" x="240.25" y="191.948" width="16" height="16"/>
+  <object id="96" gid="343" x="240.281" y="207.98" width="16" height="16"/>
+  <object id="97" gid="343" x="240.219" y="223.864" width="16" height="16"/>
+  <object id="98" gid="343" x="240.219" y="239.864" width="16" height="16"/>
+ </objectgroup>
+ <layer id="4" name="cacttos" width="16" height="16">
+  <data encoding="csv">
+351,351,351,351,351,351,351,0,0,0,351,351,351,351,351,351,
+351,0,0,0,0,0,0,0,0,0,0,0,0,0,0,351,
+351,0,0,0,0,0,0,0,0,0,0,0,0,0,0,351,
+351,0,350,0,0,350,0,0,0,350,0,0,350,0,0,351,
+351,0,350,0,0,0,350,0,0,0,0,0,0,0,0,351,
+351,0,0,0,0,0,350,0,0,350,0,0,0,0,0,351,
+0,0,0,0,0,0,0,0,0,0,0,350,0,0,0,0,
+0,0,0,350,350,0,0,350,0,0,0,0,0,350,0,0,
+0,0,0,0,0,0,0,0,0,350,0,0,0,0,0,0,
+351,0,0,0,0,0,0,0,0,0,0,0,0,0,0,351,
+351,0,0,350,350,0,0,0,0,0,0,350,0,0,0,351,
+351,0,0,0,0,0,0,0,350,350,0,0,0,0,0,351,
+351,0,0,0,0,0,0,0,0,0,0,0,350,0,0,351,
+351,0,350,350,350,0,0,0,0,0,350,0,0,0,0,351,
+351,0,0,0,0,0,0,0,0,0,0,0,0,0,0,351,
+351,351,351,351,351,351,351,0,0,0,351,351,351,351,351,351
+</data>
+ </layer>
+</map>
