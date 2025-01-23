@@ -1,9 +1,12 @@
-### Cowboy Dead 
-
----
+# Cowboy Dead 
 
 ## 📜 **Sobre o Jogo**  
 **Cowboy Dead** é uma recriação do minigame **Rei da Pradaria** do aclamado jogo **Stardew Valley**. Neste desafiante jogo de tiro estilo *"twin-stick shooter"* em 2D com perspectiva **top-down**, você assume o papel de um herói do velho oeste enfrentando hordas de inimigos para sobreviver o máximo possível.  
+
+---
+
+## 🎥 **Teaser do Jogo**  
+[Assista aqui no YouTube](https://youtu.be/gDbKsez0FXg?si=vGDNO_hu5CMBOx5S)
 
 ---
 
